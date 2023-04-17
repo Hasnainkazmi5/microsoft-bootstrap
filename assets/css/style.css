@@ -63,9 +63,6 @@
     font-size: 13px;
 }
 .col-md-2 ul li{
-    padding-left: 40px;
-}
-.col-md-2 ul li{
     list-style-type: none;
 }
 .col-md-2 ul li a{
@@ -233,3 +230,44 @@
 .footer-end ul li a span:hover{
     border-bottom: 1px solid black;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    .footer-end{
+        display: none;
+    }
+    .top-btn{
+        display: none;
+    }
+}
+
+
+
+
+/* X-Small devices (portrait phones, less than 576px)
+ No media query for `xs` since this is the default in Bootstrap*/
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    .footer-end{
+        display: none;
+    }
+    .top-btn{
+        display: none;
+    }
+}
+
